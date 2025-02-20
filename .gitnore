@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pyd
+venv/
+*.swp
+*.swo
+.env
+.venv
+dist/
+build/
+*.log
+.mypy_cache/
+.coverage
+.pytest_cache/
+*.pth
+requirements.txt # Optional, if you don't want to track changes to it
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.ncb
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.ipch/
+/build/
+/bin/
+/obj/
+*.dSYM/
+
+# Ballerina
+target/
+.ballerina/
+*.bir
+*.jar
+*.balx
+
+# General OS and Editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+*.log
+
+# Data
+*.csv # If you generate large temporary data files
+*.dat # If you generate large temporary data files
+
+# Scripts
+*.sh.log # If your scripts generate log files.
+
+# Node.js (If you have any related Node.js tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker (If you use Docker)
+.dockerignore
