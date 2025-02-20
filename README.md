@@ -1,3 +1,20 @@
-# sensor-data-analysis-system
+# Sensor Data Analysis System
 
-This repository contains the source code and documentation for a system designed to collect, process, and analyze sensor data. It utilizes a three-tiered architecture: C++ for sensor interaction and data preprocessing, Ballerina for data ingestion and service management, and Python for data analysis and visualization. This project aims to provide a platform for students to learn about IoT data pipelines, distributed systems, and data science concepts
+A system for collecting, processing, and analyzing sensor data using Ballerina, Python, and C++.
+
+## Project Structure
+sensor-data-analysis-system/
+├── cpp/
+├── ballerina/
+├── python/
+├── data/
+├── docs/
+├── scripts/
+├── .gitignore
+├── LICENSE
+└── README.md
+## Technologies Used
+
+* Ballerina
+* Python
+* C++
