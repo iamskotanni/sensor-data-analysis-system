@@ -41,3 +41,48 @@ The system consists of three main components:
 2.  The Ballerina service receives the data, validates it, and stores it in the `data/sensor_data.csv` file.
 3.  The Python data analysis script reads the data from the CSV file and performs analysis.
 4.  The python script displays a plot of the data.
+
+## Getting Started
+
+1.  **Clone the Repository:**
+    * Clone the repository to your local machine using your preferred Git client or Visual Studio.
+2.  **Install Dependencies:**
+    * Refer to the [Installation Guide](docs/installation.md) for detailed instructions on installing the required software and libraries.
+3.  **Run the System:**
+    * Navigate to the `scripts` folder and run the `run_all.bat` script.
+    * Alternatively, you can run the individual scripts (`build_cpp.bat`, `run_ballerina.bat`, `run_python.bat`) in the correct order.
+4.  **View the Results:**
+    * The Ballerina service will log incoming sensor data to the console.
+    * The Python analysis script will display a summary of the data and generate a plot.
+
+## Dependencies
+
+* **C++:**
+    * g++ (or a compatible C++ compiler)
+    * libcurl
+* **Ballerina:**
+    * Ballerina runtime
+* **Python:**
+    * Python 3.x
+    * pandas
+    * matplotlib
+
+## Documentation
+
+* [Overview](docs/overview.md)
+* [Installation Guide](docs/installation.md)
+* [Usage Guide](docs/usage.md)
+
+## Scripts
+
+The `scripts` folder contains automation scripts to simplify the development and execution of the system.
+
+* `build_cpp.bat`: Compiles the C++ sensor simulator.
+* `run_ballerina.bat`: Starts the Ballerina data ingestion service.
+* `run_python.bat`: Runs the Python data analysis script.
+* `run_all.bat`: Runs all the scripts in the correct order.
+* `install_dependencies.bat`: Helps install python dependencies.
+
+## License
+
+This project is licensed under the [SkotCoding LLC]License.
